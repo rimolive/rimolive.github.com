@@ -5,3 +5,11 @@ header {
 	margin: 10px;
 	text-align: center;
 }
+
+header h1 {
+	color: white;
+}
+
+header p {
+	color: white;
+}
