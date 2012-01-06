@@ -7,9 +7,13 @@ header {
 }
 
 header h1 {
+	margin: 0px;
 	color: white;
+	font-size: xx-large;
 }
 
 header p {
+	margin: 0px;
+	font-weight: bold;
 	color: white;
 }
