@@ -1,0 +1,59 @@
+header {
+	background-color: gray;
+	border: thin black solid;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0px;
+	color: white;
+	font-size: xx-large;
+}
+
+header p {
+	margin: 0px;
+	font-weight: bold;
+	color: white;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+}
+
+aside#menu {
+	float: left;
+	width: 200px;
+	height: 300px;
+}
+
+aside#menu ul {
+	list-style-type: none;
+	margin: 10px;
+	padding: 0px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #D0D0D0;
+	border-top-width: 0px;
+}
+
+aside#menu ul li {
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #D0D0D0;
+}
+
+aside#menu ul li a {
+	color: dark gray;
+	text-decoration: none;
+}
+
+section#content {
+	margin: 10px;
+	padding: 10px;
+	height: 300px;
+	margin-left: 220px;
+}
