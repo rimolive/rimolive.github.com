@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head.html %}
+
+<body>
+
+	{% include header.html %}
+
+	<aside id="menu">
+		<ul>
+			{% for page in site.pages %}
+				{% if page.tag == 'menuItem' %}
+				<li>
+					<a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+				</li>
+				{% endif %}
+			{% endfor %}
+		</ul>
+	</aside>
+	<section id="content" class="page-content">
+		<div class="wrapper">
+			{{ content }}
+		</div>
+	</section>
+
+	{% include footer.html %}
+
+	<footer>
+		<p>
+			<a href="aboutme.html">About me</a>
+		</p>
+	</footer>
+</body>
+
+</html>
