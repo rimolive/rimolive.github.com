@@ -13,12 +13,12 @@ author: Fábio Madeira
 # edit this section with your information
 # jekyller.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /vitae/
+baseurl: /
 title: Ricardo Oliveira's Resume
 name: Ricardo Martinelli de Oliveira
 email: ricardo.martinelli.oliveira@gmail.com
 email_full: mailto:ricardo.martinelli.oliviera@gmail.com
-website: vitae.ricardo.martinelli.nom.br
+website: blog.ricardo.martinelli.nom.br
 website_full: https://blog.ricardo.martinelli.nom.br
 github: rimolive
 twitter: rimolive
